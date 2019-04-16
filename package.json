@@ -1,0 +1,15 @@
+{
+  "name": "mosesaloetta",
+  "version": "1.0.0",
+  "description": "moses the chat bot into page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agorama",
+  "license": "MIT",
+  "dependencies": {
+    "choo": "^6.13.3",
+    "nodemon": "^1.18.11"
+  }
+}
