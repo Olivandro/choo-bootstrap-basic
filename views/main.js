@@ -1,6 +1,7 @@
 const html = require('choo/html')
 
 const carousel = require('./components/carousel')
+const contact = require('./components/contact')
 const footer = require('./components/footer')
 
 module.exports = (state) => {
@@ -17,7 +18,8 @@ module.exports = (state) => {
           <br>
           <p class="font-weight-normal">In ponderum quaestio gubergren mel, diam integre sit te. Movet quaestio ei mel, possit inimicus persecuti pro et. An choro animal duo. His at impedit maiorum iracundia. Est dicant facilisi assentior id. Ei rebum summo nostro sed, eos at fugit quando suscipit.
           </p>
-          <a class="btn btn-outline-dark" href="https://m.me/mosesthechatbot" target="_blank">Chat to Moses</a>
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contact Us!</button>
+          ${contact(state)}
         </div>
 
         <div class="col-lg-8 p-lg-5 mx-auto my-5">
