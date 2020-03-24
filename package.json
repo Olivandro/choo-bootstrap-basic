@@ -1,15 +1,22 @@
 {
-  "name": "mosesaloetta",
+  "name": "choo-bootstrap-basic",
   "version": "1.0.0",
-  "description": "moses the chat bot into page",
+  "description": "Choo js framework and Bootstrap basic starter template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Agorama",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olivandro/choo-bootstrap-basic.git"
+  },
+  "author": "Alejandro Ball",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olivandro/choo-bootstrap-basic/issues"
+  },
+  "homepage": "https://github.com/Olivandro/choo-bootstrap-basic#readme",
   "dependencies": {
-    "choo": "^6.13.3",
-    "nodemon": "^1.18.11"
+    "choo": "^7.1.0"
   }
 }
